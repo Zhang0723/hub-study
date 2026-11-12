@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+python-dotenv>=1.0
+kafka-python>=2.0.2
+openai>=1.30
+pymupdf>=1.24
+jieba>=0.42
+# 可选：装了 MinerU 就用它解析（版面/公式/表格识别），没装自动降级 PyMuPDF
+# mineru>=2.0

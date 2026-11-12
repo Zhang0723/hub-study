@@ -1,0 +1,1 @@
+{"filename": "test.pdf", "size": 107533, "status": "done", "message": "解析完成", "created_at": "2026-11-12 22:53:10", "updated_at": "2026-11-12 22:53:10", "parser": "pymupdf", "chars": 358, "chunks": 3, "images": 1}
