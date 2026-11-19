@@ -1,0 +1,7 @@
+# openai-agents 版本：不依赖 langgraph
+fastapi>=0.110
+uvicorn>=0.27
+httpx>=0.27
+openai>=1.30
+openai-agents>=0.2
+python-dotenv>=1.0
