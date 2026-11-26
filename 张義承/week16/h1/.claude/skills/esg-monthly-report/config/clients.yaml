@@ -1,0 +1,59 @@
+# 客户档案。skill 按 client 字段选择。
+# 新增客户时复制一份顶层节点即可。
+
+defaults:
+  # 报告覆盖的天数（月报默认上一个自然月）
+  lookback_days: 31
+  # 检索深度：每个板块抓取多少条候选网页
+  candidates_per_section: 8
+
+clients:
+  shenhua:
+    name: 中国神华
+    full_name: 中国神华能源股份有限公司
+    aliases:
+      - 中国神华
+      - 中国神华能源
+      - China Shenhua
+      - 601088
+      - 01088
+    sector: 煤炭开采与电力
+    sector_aliases:
+      - 煤炭
+      - 煤电
+      - 动力煤
+      - 火电
+      - 能源
+    # 对标企业：用于生成"对标企业的 ESG 关键行动"
+    peers:
+      - 国家能源集团
+      - 中煤能源
+      - 陕西煤业
+      - 兖矿能源
+      - 中国铝业
+      - 中国石化
+    # 客户自有的 ESG 关键议题，报告里重点追踪
+    focus_topics:
+      - 碳排放总量与强度
+      - 范围三排放披露
+      - 煤耗与清洁能源装机
+      - 安全生产与职业健康
+      - ESG 评级与第三方鉴证
+      - 绿色矿山与生态修复
+    # 客户定期跟踪的评级机构
+    rating_agencies:
+      - MSCI
+      - 标普全球 CSA
+      - Sustainalytics
+      - 伦交所 ESG 披露
+      - 中诚信 ESG 评级
+      - 秩鼎 ESG 评级
+      - Wind ESG 评级
+    # 客户关注的监管口径
+    regulators:
+      - 上交所
+      - 港交所
+      - 生态环境部
+      - 国家发改委
+      - 国家能源局
+      - 国资委
